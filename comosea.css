@@ -1,0 +1,30 @@
+body {
+	background: lightgray;
+}
+ul {
+	width: 16rem;
+	margin: auto;
+	display: grid;
+	grid-gap: .5rem;
+	grid-template-columns: repeat(7, 1fr);
+}
+li {
+	list-style: none;
+	border-radius: .1rem;
+	display: block;
+	background: white;
+	padding: 1rem;
+	text-align: right;
+	width: 2rem;
+	height: 2rem;
+}
+li:hover {
+	cursor: pointer;
+}
+li:nth-child(-n+7) {
+	font-weight: bold;
+	text-align: center;
+}
+h1, p {
+	text-align: center;
+}
